@@ -1,8 +1,10 @@
 ## This Java reference sample shows how to CosmosDB Pagination can be achieved with ContinuationToken
 
 ## Steps 
-git clone 
-Run Main.Java
+git clone https://github.com/jyotsnaravikumar/azure-cosmosdb-java-pagination </br>  
+cd azure-cosmosdb-java-pagination </br>  
+Update AccountSettings.java with cosmosdb hostname and key </br>  
+Run Main.Java </br>  
 
 ### This method returns a map with nextContinuationtoken and prevContinuationToken with resultsets Which can be used in UI
    QueryPageByPage();
